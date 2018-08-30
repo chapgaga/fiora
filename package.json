@@ -8,6 +8,7 @@
     "server": "./node_modules/.bin/cross-env NODE_ENV=development && nodemon server/main.js --config .nodemonrc",
     "client": "node build/dev-server.js",
     "build": "node build/build.js",
+    "myscript":"node build/myscript.js",
     "lint": "./node_modules/.bin/eslint ./ --ext js,jsx --ignore-pattern .eslintignore --cache --fix"
   },
   "pre-commit": [
